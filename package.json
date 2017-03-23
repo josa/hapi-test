@@ -1,0 +1,33 @@
+{
+  "name": "hapi-test",
+  "version": "1.0.0",
+  "description": " Simple test using Hapi Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josa/hapi-test.git"
+  },
+  "keywords": [
+    "hapi",
+    "js",
+    "node"
+  ],
+  "author": "Jeosadache Galvão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josa/hapi-test/issues"
+  },
+  "homepage": "https://github.com/josa/hapi-test#readme",
+  "dependencies":{
+    "hapi": "~16.1.0"     
+  },
+  "devDependencies":{
+    "lab": "~13.0.1",
+    "mocha": "~3.2.0",
+    "should": "~11.2.1"
+  }
+}
