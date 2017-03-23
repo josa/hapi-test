@@ -9,15 +9,15 @@
 
 ### Howto
 
-####Install node.js
+#### Install node.js
 
 https://nodejs.org/en/download/current/
 
-####Install dependeces
+#### Install dependeces
 `npm install`
 
-####Run tests
+#### Run tests
 `npm test`
 
-####Run app
+#### Run app
 `npm start `
