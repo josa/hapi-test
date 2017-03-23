@@ -23,11 +23,13 @@
   },
   "homepage": "https://github.com/josa/hapi-test#readme",
   "dependencies":{
-    "hapi": "~16.1.0"     
+    "hapi": "~16.1.0",
+    "request": "~2.81.0"   
   },
   "devDependencies":{
     "lab": "~13.0.1",
     "mocha": "~3.2.0",
-    "should": "~11.2.1"
+    "should": "~11.2.1",
+    "nock": "~9.0.9"
   }
 }
